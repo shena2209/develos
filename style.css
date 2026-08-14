@@ -1,0 +1,45 @@
+body {
+    background-color:rgb(187, 142, 44)
+}
+
+h1 {
+    color:rgb(0, 0, 0);
+    
+}
+
+input {
+    background-color:rgb(151, 151, 149);
+}
+
+h2 {
+    color: rgba(192, 145, 45, 0.897);
+
+}
+
+p{
+    color:rgba(151, 121, 24, 0.534);
+}
+
+button{
+    background-color:rgb(0, 0, 0);
+    color: rgb(194, 143, 33)
+}
+
+label{
+    color:rgb(180, 137, 8)
+}
+
+textarea{
+    background-color:rgb(180, 174, 174);
+
+}
+
+a{
+    color:rgb(0, 0, 0)
+}
+
+main{
+    background-color:rgb(0, 1, 2);
+    margin: 15px;
+    padding: 40px;
+}
