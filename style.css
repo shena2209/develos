@@ -28,7 +28,7 @@
         gap: 30px;
         padding: 50px;
         margin: 50px;
-        background-color: pink;
+        background-color: white;
         max-width: 1200px;
 
     }
@@ -91,12 +91,12 @@
     }
 
     nav a {
-        transition: color 0.3s ease;
+        transition: color 1s ease;
 
     }
 
     nav a:hover {
-        color: rgb(102, 1, 18);
+        color: pink;
     }
 
     button {
@@ -110,5 +110,5 @@
     }
 
     button:hover {
-        background-color: blue;
+        background-color: pink;
     }
