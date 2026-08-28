@@ -1,6 +1,6 @@
     body {
         text-align: center;
-       
+
     }
 
     ul {
@@ -79,4 +79,11 @@
             color: pink;
         }
 
+    }
+
+    @media (max-width: 768px) {
+        h2 {
+            font-size: 100px;
+            color: blue;
+        }
     }
