@@ -15,7 +15,7 @@ console.log('67');
 
 function greet(greeting, names = []) {
     if (Array.isArray(names)) {
-        names = names.join(", ");
+        names = names.join(" , ");
     }
     return `${greeting} sa enyu, ${names}`;
 }
