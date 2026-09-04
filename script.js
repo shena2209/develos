@@ -25,9 +25,12 @@ console.log(greet(" Mayong aga ", ["shena", "Bai", "Soy", "Tol", "Erp"]));
 
 const heading = document.querySelector("h1");
 console.log(heading.textContent = "Your father's name");
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
+heading.style.fontSize = "100px";
 
 const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
 
 const ProjectsHeading = document.querySelector("#services h2");
-console.log(ProjectsHeading);
+console.log(ProjectsHeading);2
