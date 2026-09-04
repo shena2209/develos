@@ -28,9 +28,32 @@ console.log(heading.textContent = "Your father's name");
 heading.style.color = "purple";
 heading.style.backgroundColor = "yellow";
 heading.style.fontSize = "100px";
+console.log(heading);
+
+heading.addEventListener("click", function () {
+    heading.style.color = "red";
+    console.log("Heading was clicked!");
+
+});
 
 const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
 
 const ProjectsHeading = document.querySelector("#services h2");
-console.log(ProjectsHeading);2
+console.log(ProjectsHeading);
+
+const toggleButton = document.querySelector("#switch");
+const body = document.querySelector('body');
+let isoff = false;
+
+toggleButton.addEventListener("click", function () {
+    isoff = !isoff;
+    
+    if (isoff) {
+        body.style.backgroundColor = "black";
+        body.style.color = "white";
+    } else {
+        body.style.backgroundColor = "white";
+        body.style.color = "black";
+    }
+});
