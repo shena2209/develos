@@ -24,7 +24,7 @@ function greet(greeting, names = []) {
 console.log(greet(" Mayong aga ", ["shena", "Bai", "Soy", "Tol", "Erp"]));
 
 const heading = document.querySelector("h1");
-console.log(heading.textContent = "Your father's name");
+heading.textContent = ("Your father's name");
 heading.style.color = "purple";
 heading.style.backgroundColor = "yellow";
 heading.style.fontSize = "100px";
@@ -32,7 +32,7 @@ console.log(heading);
 
 heading.addEventListener("click", function () {
     heading.style.color = "red";
-    console.log("Heading was clicked!");
+    Console.log("Heading was clicked!");
 
 });
 
@@ -48,7 +48,7 @@ let isoff = false;
 
 toggleButton.addEventListener("click", function () {
     isoff = !isoff;
-    
+
     if (isoff) {
         body.style.backgroundColor = "black";
         body.style.color = "white";
