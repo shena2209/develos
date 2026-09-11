@@ -112,3 +112,19 @@
     button:hover {
         background-color: hotpink;
     }
+
+    h1 {
+        font-size: 90px;
+        color: green;
+    }
+
+    h2 {
+        font-size: 100px;
+        color: hotpink;
+
+    }
+
+    #projects {
+        background-color: orange;
+        background-color: blue;
+    }
